@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="shortcut icon" href="IMG/Vector.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        
+        <!--Google Fonts-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+
+         <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+
+         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+
+         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Instrument+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+
+         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Instrument+Serif&family=Marcellus&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+
+    </head>
+    <body> 
+      
+       <main>  
+           <div class="container">
+              <div  class="logo">
+                 <img class="logoImg" src="IMG/logo.png">
+                 <h1 id="title"> Challenge I. Encriptador de Mensaje</h1>
+                 </div>
+
+              <div class="left">
+                  <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
+              </div>     
+
+              <div class="right">
+                 <img src="IMG/Conejito.png" id="imagen-derecha">
+
+                 <h1 id="encontrado">Ningún Mensaje Fue Encontardo</h1>
+
+                 <textarea id="texto" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+
+                 <button id="copiar" type="button" name="button" onclick="copy()">!Copiar Texto¡</button>
+              </div>   
+               
+
+                <div class="left-button">
+                  <p><i class="circle-exclamation"></i><img src="IMG/pngegg.png"> Sólo encripta letras minúsculas,sin acentos.</p>
+
+                 <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+
+                 <button type="button" id="boton-desencriptar"  onclick="desencriptar()">Desencriptar</button> 
+                </div>
+
+            </div>
+       
+        </main> 
+            
+        <footer>
+                <div class="footer-d">
+
+                     <p>Designed By: Leslie Dominguez.</p>
+                    <p> Derechos Reservados por Leslie - Mexico 2023</p>
+                
+                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+                     <div class="iconos-redes">
+
+                        <a href="https://linkedin.com/in/leslie-dominguez-/" class="linkedin" target="_blank">
+                            <i class="fa-brands fa-linkedin" style="color: #0042aa;"></i>
+                        </a>
+
+                        <a href="https://github.com/Lesli-Rojas" class="github" target="_blank">
+                            <i class="fa-brands fa-github" style="color: #0042aa;"></i>
+                        </a>
+                        
+            
+                    </div>
+                    
+                
+                </div>
+        </footer>
+       
+    </body>
+</html
+
