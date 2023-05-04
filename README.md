@@ -28,5 +28,3 @@ Para mi fue un aprendizaje constante y de aprender nuevas cosas que maneja todo 
 
 - La letra "u" es convertida para "ufat"
 
-**Su Función**
-Es básica y simple; solo necesitas escribir el mensaje que deseas dentro del area indicada, procedemos a presionar el botón para encriptar y luego el resultado se mostrará a la derecha de la pantalla. Si lo deseas, puedes copiar el texto para después desencriptarlo.
